@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(floral-background.jpg.avif);
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.gift-box {
+    /* Adjust these styles as needed */
+    width: 600px;
+    height: 600px;
+    cursor: pointer;
+}
+
+.message {
+    display: none;
+    font-size: 30px;
+    color: #e7b652;
+    background-color: #204f46;
+    padding: 20px;
+}
+
+h1{
+    align-content: center;
+    color: #e7b652;
+}
